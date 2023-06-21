@@ -1,0 +1,22 @@
+ @media screen and (max-width: 768px) {
+     .topsection {
+         justify-content: space-between;
+         flex-direction: column;
+     }
+     .questionIndex {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0;
+        margin: 0;
+    }
+    .main_sectiom {
+        flex-wrap: wrap;
+    }
+    .select_anwerCard{
+        margin-bottom: 10px;
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+
+ }
