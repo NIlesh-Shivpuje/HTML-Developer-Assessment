@@ -5,53 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaQuery.css">
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid">
 
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-12 mb-5 text-center">
-                    <h1>Real-Time Finance Data
-                    </h1>
+    <div class="container">
+        <div class="wrapper">
+            <div class="topsection">
+                <div class="questionIndex">
+                    <span>Question</span>
+                    <h5 class="indexVal">01/02</h5>
                 </div>
-                <div class="col-2">
-                    <h5> Select Name :- </h5>
-                </div>
-                <div class="col-4">
-                    <select id="data" class="form-control">
-                        <option value="apple">apple</option>
-                        <option value="google">google</option>
-                        <option value="KLA Corp">KLA Corp</option>
-                        <option value="Xilinx">Xilinx</option>
-                        <option value="NVIDIA">NVIDIA</option>
+                <div class="question">
+                    <div class="question_1"> Below are three options on how to respond to the scenario above. Image
+                        question the
+                        client side
+                        pings you arid tels that they have a personal emergency and will need to be away from work.
 
-                    </select>
+                        You will ...
+                    </div>
 
-                </div>
-                <div class="col-4">
-                    <input type="submit" id="submitData" class="btn btn-primary" value="submit">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-
-                    <table id="table" class="table mt-3 border">
-                        
-                    </table>
+                    <p class="question_info"> Below are three options on how to respond to the scenario above. Please
+                        choose the response
+                        that
+                        resonates most with you and click <span class="next">Next </span>to proceed.
                 </div>
             </div>
         </div>
+        <div class="main_sectiom">
+            <div class="select_anwerCard">
+                <label for="idinput">
+                    <img src="./img/Complex_eLearning_322W_322H.png" alt="" class="anwserImg">
+                </label>
+                <div class="get_checkBx">
+                    <input type="checkbox" value="anwser-1" id="idinput"   class="get_checkBxVal"/>
+                </div>
+            </div>
+            <div class="select_anwerCard">
+                <label for="idinput1">
+                    <img src="./img/ELearning.png" alt=""class="anwserImg">
+                </label>
+                <div class="get_checkBx">
+                    <input type="checkbox" value="anwser-2"   id="idinput1" class="get_checkBxVal" />
+                </div>
+            </div>
+            <div class="select_anwerCard">
+                <label for="idinput2">
+                    <img src="./img/iron-man-2560x2494-infinity-gauntlet-hd-16412.jpg" alt=""
+                        class="anwserImg">
+                </label>
+                <div class="get_checkBx">
+                    <input type="checkbox" value="anwser-3"   id="idinput2"  class="get_checkBxVal" />
+                </div>
+            </div>
+            <div class="select_anwerCard">
+                <label for="idinput3">
+                    <img src="./img/Medium_Complexity_E_Learning_322W_322H.png" alt="" class="anwserImg">
+                </label>
+                <div class="get_checkBx">
+                    <input type="checkbox" value="anwser-4"   id="idinput3" class="get_checkBxVal"/>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button class="submitBtn" id="submitBtn">SUBMIT</button>
+        </div>
+    </div>
     </div>
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="./main.js"></script>
 </body>
